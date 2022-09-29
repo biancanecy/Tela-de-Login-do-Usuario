@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.container{ /* elemento pai da flexbox */
+    display: flex;
+    width: 100vw ; /*alinha os elementos ao meio resposificando automaticamente */
+    justify-content: center; /* alinhar o container pai ao meio */
+    
+    
+   
+
+}
+
+.box{ 
+
+    width: 360px;
+    height: 500px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 15px black;
+
+}
+
+
+.primeira{
+
+    background-image: url(../images/image2.jpg);
+    background-repeat: no-repeat;
+    
+
+}
+
+.segunda{
+    
+    
+    background-color: rgb(255, 255, 255);
+    
+
+}
+
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 10%;
+    
+    margin-top: 15px;
+    margin-left: 30px;
+    font-size: 30px;
+
+
+}
+
+a{
+    color: rgb(176, 118, 56);
+    
+}
+
+
+
+
+.primeira :nth-child(1){
+
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 4px 20px black;
+}
+
+.primeira :nth-child(2){
+
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+h2{
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 15px;
+
+}
+
+label{ 
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+
+}
+
+input{ /*personalização dos campos de input */
+    
+    height: 5vh;
+    border-radius: 8px;
+    border-style: none;
+    outline: none ;
+    padding-left: 13px;
+    box-shadow: 0px 2px  5px ; /* sombreamento dos campos */
+    
+    
+}
+
+span{
+
+font-size: 14px;
+text-align: center;
+
+
+
+}
+
+
+#check{
+
+    box-shadow: none; /*remover bug da caixinha de marcar */
+    margin-top: 4px;
+
+
+}
+
+
+::-webkit-input-placeholder{ /*personalização de placeholder */
+    font-weight: bolder;
+    
+
+}
+
+
+form{
+
+    display: flex;
+    flex-direction: column;
+    width: 35vh;
+    justify-content: center;
+    margin-left: 13% ;
+    margin-top: 30px;
+}
+
+button{
+
+    padding: 1vh;
+    border-radius: 8px;
+    border-style: none;
+    box-shadow: 0px 2px 5px  ;
+    background-color: rgb(172, 156, 151);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5vh;
+    font-weight:bold;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: chocolate;
+    color: white;
+    transition: 700ms;
+    
+
+}
